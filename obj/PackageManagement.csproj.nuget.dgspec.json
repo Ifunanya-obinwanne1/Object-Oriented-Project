@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\obinw\\PackageManagement\\PackageManagement.csproj": {}
+    "C:\\Users\\obinw\\Package-Management-App\\PackageManagement\\PackageManagement.csproj": {}
   },
   "projects": {
-    "C:\\Users\\obinw\\PackageManagement\\PackageManagement.csproj": {
+    "C:\\Users\\obinw\\Package-Management-App\\PackageManagement\\PackageManagement.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\obinw\\PackageManagement\\PackageManagement.csproj",
+        "projectUniqueName": "C:\\Users\\obinw\\Package-Management-App\\PackageManagement\\PackageManagement.csproj",
         "projectName": "PackageManagement",
-        "projectPath": "C:\\Users\\obinw\\PackageManagement\\PackageManagement.csproj",
+        "projectPath": "C:\\Users\\obinw\\Package-Management-App\\PackageManagement\\PackageManagement.csproj",
         "packagesPath": "C:\\Users\\obinw\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\obinw\\PackageManagement\\obj\\",
+        "outputPath": "C:\\Users\\obinw\\Package-Management-App\\PackageManagement\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

@@ -6,7 +6,7 @@ class DataTier
 {
     public string connStr = "server=20.172.0.16;user=ikobinwanne1;database=ikobinwanne1;port=8080;password=ikobinwanne1";
 
-    // perform login check using Stored Procedure "LoginCount" in Database based on given user' studentID and Password
+    // perform login check using Stored Procedure "LoginCheck" in Database based on given user' username and Password
     public bool LoginCheck(User user)
     {
         MySqlConnection conn = new MySqlConnection(connStr);
@@ -79,7 +79,7 @@ class DataTier
         }
 
     }
-    // Add Packages
+    // To Add new Packages
     public void AddToPendingArea(int unit_number, string full_name, string posting_agency)
     {
         MySqlConnection conn = new MySqlConnection(connStr);
@@ -260,7 +260,7 @@ class DataTier
 
     }
 
-    // problem here, void cannot be convert to string
+    // Void cannot be converted to string
     public string ResidentEmail(int unit_number, string full_name)
     {
         MySqlConnection conn = new MySqlConnection(connStr);

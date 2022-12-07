@@ -21,20 +21,21 @@ class GuiTier{
         Console.WriteLine($"Hello: {user.userName}; Date/Time: {localDate.ToString()}");
         Console.WriteLine("Please select an option to continue:");
         Console.WriteLine("1. Add Package");
-        Console.WriteLine("2. Package Status");
+        Console.WriteLine("2. Pickup Package Status");
         Console.WriteLine("3. Check Package History");
         Console.WriteLine("4. Log Out");
         int option = Convert.ToInt16(Console.ReadLine());
         return option;
     }
 
-    // show record history
+    // show package record history
     public void Display(DataTable tableRecords){
         Console.WriteLine("---------------Table-------------------");
         foreach(DataRow row in tableRecords.Rows){
            Console.WriteLine($"UnitNumber: {row["unit_number"]} \t Resident_Name: {row["full_name"]} \t Agency:{row["posting_agency"]}");
         }
     }
+    // Unknown package records
     public void DisplayUnknown(DataTable tableRecords){
         Console.WriteLine("---------------Table-------------------");
         foreach(DataRow row in tableRecords.Rows){

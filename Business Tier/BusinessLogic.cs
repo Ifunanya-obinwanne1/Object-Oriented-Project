@@ -69,7 +69,7 @@ class BusinessLogic
                     </html>";
 
 
-        // mailfrom domain of your email service on Azure
+        // send email from email service on Azure's domain
         var sender = "DoNotReply@5999b487-2c15-4744-a7f9-afaf16d3bb96.azurecomm.net";
 
         Console.WriteLine("Please input an email address: ");
@@ -95,7 +95,7 @@ class BusinessLogic
                 return;
             }
 
-            // wait max 2 minutes to check the send status for mail.
+            // the wait time for email status. 
             var cancellationToken = new CancellationTokenSource(TimeSpan.FromMinutes(2));
             do
             {
@@ -156,14 +156,14 @@ class BusinessLogic
                     int unit_number = Convert.ToInt16(Console.ReadLine());
                     if(database.PackageCheck(full_name, unit_number))
                     {
-                      Console.WriteLine("---------Pending Package Table--------");
+                      Console.WriteLine("---------Pending Package Table before Pick up--------");
                         DataTable tablePending = database.ShowAllPending(user);
                         if (tablePending != null)
                         {
                             appGUI.Display(tablePending);
                         }
                         database.DeleteFromPending(unit_number, full_name);
-                        Console.WriteLine("----------Pending Table After Pickup----------------");   
+                        Console.WriteLine("----------Successful Pickup----------------");   
                     }
                     else{
                         Console.WriteLine("Wrong Information, Try again");

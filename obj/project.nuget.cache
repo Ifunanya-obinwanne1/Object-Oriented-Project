@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "VcTSDKpMvDnTCyVa5tjyPieP7zloUpgSM1H3j6FDzRJTZIrFi4b1DDQ4C6JiY+4POIVeSGkxJ0yiORVsgSJGdQ==",
+  "dgSpecHash": "HzFi8BYk+owFnpFRlP8N8YxhnsyrynF64mqJEUQ+iMRneuWzO7ZjG4ZgyA5EFm+h9B7Y3syZpukVrdCRQpPt7Q==",
   "success": true,
-  "projectFilePath": "C:\\Users\\obinw\\PackageManagement\\PackageManagement.csproj",
+  "projectFilePath": "C:\\Users\\obinw\\Package-Management-App\\PackageManagement\\PackageManagement.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\obinw\\.nuget\\packages\\azure.communication.email\\1.0.0-beta.1\\azure.communication.email.1.0.0-beta.1.nupkg.sha512",
     "C:\\Users\\obinw\\.nuget\\packages\\azure.core\\1.24.0\\azure.core.1.24.0.nupkg.sha512",
