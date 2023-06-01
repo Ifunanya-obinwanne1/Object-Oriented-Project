@@ -54,7 +54,7 @@ class BusinessLogic
                             appGUI.Display(tableAllPending);
                         }
                         // send email notification
-                        string serviceConnectionString =  "endpoint=https://ikweek10communication.communication.azure.com/;accesskey=lwjq8YVtecbLzFtNsqyVB06p+KnmNMmpUlKqpxZ0sU4V1YfeTYTr/n+qFpzFxQ4oE6Xm4DawrpEod8DppjzlPg==";
+                        string serviceConnectionString =  "-----------***privatebecauseitissensitive***------------------";
                         EmailClient emailClient = new EmailClient(serviceConnectionString);
                         var subject = "We Have a Delivery For You!";
                         var emailContent = new EmailContent(subject);
