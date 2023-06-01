@@ -4,7 +4,7 @@ using MySql.Data;
 using MySql.Data.MySqlClient;
 class DataTier
 {
-    public string connStr = "server=20.172.0.16;user=name;database=name;port=int;password=name";
+    public string connStr = "server=int;user=name;database=name;port=int;password=name";
 
     // perform login check using Stored Procedure "LoginCheck" in Database based on given user' username and Password
     public bool LoginCheck(User user)
